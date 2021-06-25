@@ -16,7 +16,7 @@ public class InputRead {
         String line;
 
         while(scanner.hasNextLine() && (line = scanner.nextLine()).length() > 0 ) {
-            readSenctence(line);
+            readSenctence(line.trim());
         }
     }
 

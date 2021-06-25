@@ -30,7 +30,7 @@ public class OutputProcess {
 
     }
 
-    public static void findValueOfRoman(String query){
+    private static void findValueOfRoman(String query){
         if (isValidInput(query)){
             ArrayList<String> tokenValueToRoman = new ArrayList<String>();
             ArrayList<String> tokenValue = splitQuery(query);
